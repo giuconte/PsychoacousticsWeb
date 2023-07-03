@@ -80,18 +80,19 @@ if (isset($_GET['err'])) {
         Welcome to PSYCHOACOUSTICS-WEB
     </h1>
     <p class="p-5 bg-white-transparent rounded-5 fs-5" id="indexDescription">
-        PSYCHOACOUSTICS-WEB is a web developed tool to measure auditory sensory thresholds for a
-        variety of classic tasks. You can run each test as a guest or you can create your personal
-        account and costumize the toolbox for your own research. Please refer to the <a
-                href="files/PSYCHOACOUSTICS-WEB_manual.pdf">instruction
-            manual</a> for further info on how to use the toolbox.
-        <br><br>
-        The tasks estimate the intensity, frequency and duration discrimination threshold for a pure tone.
-        In the tasks you can set up the characteristics of the tone as well as
-        the characteristics of the adaptive staircase. The tests implement the
-        following adaptive staircase algorithms: simple up-down, 2-down 1-up,
-        and 3-down 1-up. Please refer to Levitt (JASA, 1971) for more info on
-        these adaptive staircases.
+      PSYCHOACOUSTICS-WEB is a web developed tool to measure auditory sensory thresholds for a variety of classic tasks.
+			You can run each test as a guest or you can create your personal account and costumize the test for your own research.
+			Please refer to the <a href="https://docs.google.com/document/d/1f5WzsetInQHgai8dSu_FJN3eitbMdVCKXnbQgUrsRig/edit?usp=sharing">instruction
+				manual</a> for further info on how to use the toolbox.<br>
+				<br>
+				The tests estimate various auditory abilities (e.g., intensity and frequency discrimination thresholds, gap detection threshold, etc.).<br>
+				For each test you can set up the characteristics of the sounds as well as the characteristics of the test.<br>
+				<br>
+				Currently, the tool implements the adaptive staircase algorithms: simple up-down, 2-down 1-up, and 3-down 1-up.<br>
+				Please refer to Levitt (1971) for more info on these adaptive staircases.
+				If you need more info on auditory abilities and auditory sensory threshold estimation please refer to Kidd, Watson & Gygy (2007) and Soranzo & Grassi (2014).<br>
+				<br><br>
+				DISCLAIMER - THE TOOLBOX HAS NO CLINICAL USE NOR CAN BE USED FOR COMMERCIAL PURPOSES.
     </p>
 </div>
 
@@ -154,6 +155,14 @@ if (isset($_GET['err'])) {
             </a>
         </div>
     </div>
+
+    <h6><br><br>
+      References<br><br>
+      Kidd, G. R., Watson, C. S., & Gygi, B. (2007). Individual differences in auditory abilities. The Journal of the Acoustical Society of America, 122(1), 418-435.<br>
+      Levitt, H. (1971). Transformed up–down methods in psychoacoustics. The Journal of the Acoustical Society of America, 49, 467-477.<br>
+      Soranzo, A., & Grassi, M. (2014). PSYCHOACOUSTICS: a comprehensive MATLAB toolbox for auditory testing. Frontiers in  Psychology, 5, 712.<br>
+    </h6>
+
 </div>
 </body>
 </html>
